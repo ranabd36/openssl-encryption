@@ -11,6 +11,25 @@
       "email": "ranabd36@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "ranabd36/openssl-encryption",
+        "version": "0.1.0",
+        "source": {
+          "url": "https://github.com/ranabd36/openssl-encryption.git",
+          "type": "git",
+          "reference": "0.1.0"
+        },
+        "autoload": {
+          "psr-0" : {
+            "Weaverryan\\DangerZone" : "src"
+          }
+        }
+      }
+    }
+  ],
   "require": {
     "ext-openssl": "*",
     "php": ">=5.4.0"
