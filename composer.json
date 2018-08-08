@@ -1,0 +1,30 @@
+{
+  "name": "ranabd36/openssl-encryption",
+  "description": "Secure PHP OpenSSL Encryption Library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ibrahim Al Naz Rana",
+      "email": "ranabd36@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-openssl": "*",
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ranabd36\\OpenSSLEncryption\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Providers\\OpenSSLEncryptionServiceProvider"
+      ],
+      "aliases": {
+        "OpenSSL": "OpenSSL"
+      }
+    }
+  }
+}
