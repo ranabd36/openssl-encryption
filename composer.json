@@ -28,10 +28,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Providers\\OpenSSLEncryptionServiceProvider"
+         "Ranabd36\\OpenSSLEncryption\\Providers\\OpenSSLEncryptionServiceProvider"
       ],
       "aliases": {
-        "OpenSSL": "OpenSSL"
+        "OpenSSL": "Ranabd36\\OpenSSLEncryption\\OpenSSL"
       }
     }
   }
