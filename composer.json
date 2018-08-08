@@ -2,6 +2,9 @@
   "name": "ranabd36/openssl-encryption",
   "description": "Secure PHP OpenSSL Encryption Library",
   "type": "library",
+  "keywords": ["encryption", "encrypt", "decrypt", "laravel"],
+  "homepage": "https://github.com/ranabd36/openssl-encryption",
+  "license": "MIT",
   "authors": [
     {
       "name": "Ibrahim Al Naz Rana",
