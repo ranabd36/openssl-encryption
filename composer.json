@@ -1,6 +1,6 @@
 {
   "name": "ranabd36/openssl-encryption",
-  "description": "Secure PHP OpenSSL Encryption Library",
+  "description": "Secure Laravel OpenSSL Public Key/Private Key Encryption Library",
   "type": "laravel-package",
   "keywords": [
     "encryption",
@@ -34,6 +34,5 @@
         "OpenSSL": "OpenSSL"
       }
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
