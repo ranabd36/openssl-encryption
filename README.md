@@ -29,7 +29,7 @@ OpenSSLEncryption\OpenSSL::class,
 
 To publish the config, run the vendor publish command:
 ```
-php artisan vendor:publish \ --provider="OpenSSLEncryption\Providers\OpenSSLEncryptionServiceProvider"
+php artisan vendor:publish --provider="OpenSSLEncryption\Providers\OpenSSLEncryptionServiceProvider"
 ``` 
 
 
