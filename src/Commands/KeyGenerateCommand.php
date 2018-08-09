@@ -81,10 +81,9 @@ class KeyGenerateCommand extends Command
 
             // Free the private Key.
             openssl_free_key($privateKey);
+            $this->info("Key generated successfully. Never share the private key with anyone.");
         } catch (\Exception $exception) {
             $this->error($exception->getMessage());
-        }
-
-        $this->info("Key generated successfully. Never share the private key with anyone.");
+        }      
     }
 }
