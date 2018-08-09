@@ -33,7 +33,33 @@ php artisan vendor:publish \ --provider="OpenSSLEncryption\Providers\OpenSSLEncr
 ``` 
 
 
-## License
+## Usage
 
+To generate public/private key run the following artisan command :
+```php
+php artisan openssl:key-generate
+```
+
+After generating the key you need to set your public/private key path to `config/openss.php` and passphrase (if you set passphrase while generating key).
+
+Encrypt Data: 
+```php
+OpenSSL:encrypt('This text need to encrypt');
+//This will return an encrypted data
+```
+
+Decrypt Data: 
+```php
+OpenSSL:decrypt('encrypted data');
+//This will return plain text/data: This text need to encrypt
+```
+
+
+## Upcoming Feature 
+Encrypt and decrypt with multiple public/private key.  
+    
+    
+    
+## License
 OpenSSL Encryption is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
