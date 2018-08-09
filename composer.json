@@ -22,16 +22,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Ranabd36\\OpenSSLEncryption\\": "src/"
+      "OpenSSLEncryption\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-         "Ranabd36\\OpenSSLEncryption\\Providers\\OpenSSLEncryptionServiceProvider"
+         "OpenSSLEncryption\\Providers\\OpenSSLEncryptionServiceProvider"
       ],
       "aliases": {
-        "OpenSSL": "Ranabd36\\OpenSSLEncryption\\OpenSSL"
+        "OpenSSL": "OpenSSLEncryption\\OpenSSL"
       }
     }
   }

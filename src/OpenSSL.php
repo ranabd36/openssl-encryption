@@ -6,7 +6,7 @@
  * Time: 6:12 PM
  */
 
-namespace Ranabd36\OpenSSLEncryption;
+namespace OpenSSLEncryption;
 
 
 use Illuminate\Support\Facades\Facade;

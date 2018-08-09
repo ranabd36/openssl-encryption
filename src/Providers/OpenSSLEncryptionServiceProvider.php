@@ -1,10 +1,10 @@
 <?php
 
-namespace Ranabd36\OpenSSLEncryption\Providers;
+namespace OpenSSLEncryption\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Ranabd36\OpenSSLEncryption\Commands\KeyGenerateCommand;
-use Ranabd36\OpenSSLEncryption\Services\Encrypter;
+use OpenSSLEncryption\Commands\KeyGenerateCommand;
+use OpenSSLEncryption\Services\Encrypter;
 
 class OpenSSLEncryptionServiceProvider extends ServiceProvider
 {
